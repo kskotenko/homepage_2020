@@ -6,4 +6,4 @@ As someone once said:
 > Carpe diem.
 
 like my friend tried to catch a moment taking a photo of me in Acropolis :) it was a great moment :stuck_out_tongue_winking_eye:
-![me in Greece](https://photos.app.goo.gl/AXULvoT9ZZGLYdbS8)
+![me in Greece](https://github.com/kskotenko/homepage/issues/2#issue-611507035)
