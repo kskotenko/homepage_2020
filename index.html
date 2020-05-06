@@ -8,6 +8,10 @@
 			href="https://volodymyrkushnir.com/assets/stylesheets/base.css"
 		/>
 		<style>
+			html * {
+				font-size: 1.2rem;
+			}
+
 			.contacts li a.instagram:hover {
 				color: #ed73f4;
 			}
@@ -20,12 +24,16 @@
 				max-width: 10rem;
 			}
 
-			.timeline p {
-				font-size: 1.35rem;
+			.secondary-list {
+				list-style: none;
 			}
 
-			.tags {
-				font-size: 1.3rem;
+			.secondary-list li::before {
+				content: '•';
+				color: red;
+				display: inline-block;
+				width: 1.1em;
+				margin-left: -1.1em;
 			}
 		</style>
 		<title>Résumé</title>
@@ -295,6 +303,39 @@
 							</div>
 							<div class="six wide column">
 								<!-- Languages -->
+								<section>
+									<h3>Languages</h3>
+									<ul class="secondary-list">
+										<li>
+											Russian
+											<img
+												src="flags/russia-flag-icon-16.png"
+												alt="russia flag icon"
+											/>
+										</li>
+										<li>
+											English
+											<img
+												src="flags/united-kingdom-flag-icon-16.png"
+												alt="united kingdom flag icon"
+											/>
+										</li>
+										<li>
+											Ukrainian
+											<img
+												src="flags/ukraine-flag-icon-16.png"
+												alt="ukraine flag icon"
+											/>
+										</li>
+										<li>
+											German
+											<img
+												src="flags/germany-flag-icon-16.png"
+												alt="germany flag icon"
+											/>
+										</li>
+									</ul>
+								</section>
 								<!-- Skills -->
 								<section>
 									<h3>Skills</h3>
@@ -307,6 +348,18 @@
 								</section>
 								<!-- Character -->
 								<!-- Likes -->
+								<section>
+									<h3>Things I like</h3>
+								</section>
+								<ul class="secondary-list">
+									<li>spending time with beloved people</li>
+									<li>traveling</li>
+									<li>biking</li>
+									<li>taking photos</li>
+									<li>working :)</li>
+									<li>music</li>
+									<li>learning something new</li>
+								</ul>
 								<!-- Dislikes -->
 								<!-- Wants -->
 								<!-- Education -->
