@@ -23,6 +23,18 @@
 			.avatar {
 				max-width: 10rem;
 			}
+
+			.secondary-list {
+				list-style: none;
+			}
+
+			.secondary-list li::before {
+				content: '•';
+				color: red;
+				display: inline-block;
+				width: 1.1em;
+				margin-left: -1.1em;
+			}
 		</style>
 		<title>Résumé</title>
 	</head>
@@ -293,7 +305,7 @@
 								<!-- Languages -->
 								<section>
 									<h3>Languages</h3>
-									<ul>
+									<ul class="secondary-list">
 										<li>
 											Russian
 											<img
@@ -336,6 +348,18 @@
 								</section>
 								<!-- Character -->
 								<!-- Likes -->
+								<section>
+									<h3>Things I like</h3>
+								</section>
+								<ul class="secondary-list">
+									<li>spending time with beloved people</li>
+									<li>traveling</li>
+									<li>biking</li>
+									<li>taking photos</li>
+									<li>working :)</li>
+									<li>music</li>
+									<li>learning something new</li>
+								</ul>
 								<!-- Dislikes -->
 								<!-- Wants -->
 								<!-- Education -->
